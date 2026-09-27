@@ -1,0 +1,15 @@
+{
+  "budget": 2,
+  "width_error_code": "E_BAD_WIDTH",
+  "value_error_code": "E_VALUE_RANGE",
+  "field_error_code": "E_DUPLICATE_FIELD",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "bytes": [], "acc": 0, "used": 0, "names": [], "pending": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "field", "name": "a", "width": 3, "value": 5 },
+    { "id": 2, "kind": "field", "name": "b", "width": 5, "value": 9 },
+    { "id": 3, "kind": "field", "name": "c", "width": 4, "value": 12 },
+    { "id": 4, "kind": "field", "name": "d", "width": 8, "value": 200 },
+    { "id": 5, "kind": "field", "name": "e", "width": 2, "value": 3 }
+  ]
+}
